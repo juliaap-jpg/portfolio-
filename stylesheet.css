@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(180deg,rgba(148, 112, 207, 1) 0%, rgba(233, 194, 255, 1) 100%);
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul.navigation {
+  display: flex;
+  font-size: 3vw;
+  width: 100%;
+  background-color: #68559e;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+}
+
+ul.navigation li {
+  float: left;
+}
+
+ul.navigation li a {
+  display: block;
+  color: #f1dcff;;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.home {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.side {
+  font-size: 5vw;
+  text-align: center;
+  color: #f1dcff;
+  width: 20vw;
+}
+
+.side p {
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  font-size: 8vw;
+  color: #68559e;
+  background-color: #f1dcff;
+  padding-top: 2vh;
+  width: 30vw;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.name p{
+  flex-direction: column;
+}
+
+hr {
+  border: 2px solid #f1dcff;
+  border-radius: 10px;
+}
+
+.work {
+  font-size: 2vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: space-around;
+  padding-top: 20vh;
+  
+}
+
+.work h2 {
+  color: #68559e;
+  text-decoration: underline overline;
+}
+
+.work li {
+  color: #68559e;
+}
+
+.art-direction {
+  width: 30%;
+  filter: drop-shadow(2px 2px 5px #735BBA);
+}
+
+.appearances {
+  width: 30%;
+  filter: drop-shadow(2px 2px 5px #735BBA);
+}
+
+.writing {
+  width: 30%;
+  filter: drop-shadow(2px 2px 5px #735BBA);
+}
+
+.about {
+  padding-top: 30vh;
+}
+
+.about p {
+  color: #68559e;
+  font-size: 2vw;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+.about h2{
+  color: #68559e;
+  text-decoration: underline;
+  font-size: 4vw;
+  margin: 40px;
+  line-height: 1.6;
+}
