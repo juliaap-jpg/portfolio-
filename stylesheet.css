@@ -2,6 +2,7 @@ html {
   background: linear-gradient(180deg,rgba(148, 112, 207, 1) 0%, rgba(233, 194, 255, 1) 100%);
   background-size: cover;                  /* Scale the image to cover the entire container */
   background-repeat: no-repeat;
+  height: 100%;
 }
 body {
   background: linear-gradient(180deg,rgba(148, 112, 207, 1) 0%, rgba(233, 194, 255, 1) 100%);
